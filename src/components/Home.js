@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <div>
       <p>
-        Hej Hej bajs portfolio
+        Hej Hej bajs portfolio KLARSNART
       </p>
     </div>
   );
