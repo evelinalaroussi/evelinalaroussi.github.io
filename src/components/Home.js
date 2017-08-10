@@ -16,7 +16,7 @@ export default function Home() {
         <Interactive
           as={Link}
           {...s.link}
-          to="/example"
+          to="/head"
         >Example page</Interactive>
       </div>
       <div style={s.pageLinkContainer}>
