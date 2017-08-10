@@ -6,10 +6,13 @@ html, body {
 
 }
 
-#root, #container{
+#root, #container, #container1, #container2{
 	height: 100%;
 }
 
+.noShow {
+  display: none !important;
+}
 
 [data-reactroot] 
         {height: 100%; }
