@@ -5,11 +5,11 @@ import Home from './Home';
 import PageNotFound from './PageNotFound';
 import Header from './Header';
 
-import s from '../styles/app.style';
+//import s from '../styles/app.style';
 
 export default function App() {
   return (
-    <div style={s.root}>
+    <div>
 
       <Switch>
         <Route exact path="/" component={Home} />
