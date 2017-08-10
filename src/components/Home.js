@@ -16,7 +16,7 @@ export default function Home() {
   return (
     <div>
       <p style={s.p}>
-        Hej Hej
+        Hej Hej bajs
       </p>
       <p style={s.p}>
         Please see the {repoReadmeLink('repo readme')} for instructions on how to
