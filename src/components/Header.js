@@ -7,29 +7,39 @@ import { Link } from 'react-router-dom';
 function Header() {
 
 
+// different hights for different screen sizes
     if (window.innerWidth>1093 && window.innerHeight<590){
-  		  	var oh = "auto";
-  		  	var h = "auto";
-  	}
+          var oh = "auto";
+          var h = "auto";
+          var o = "100%"
+          console.log("1");
+    }
 
-  	else if (window.innerWidth>1093 && window.innerHeight>590){
-  		  	var oh = "100%";
-  		  	var h = "auto";
-  	}
-  	
+    else if (window.innerWidth>1093 && window.innerHeight>590){
+          var oh = "100%";
+          var h = "auto";
+          var o = "100%"
+          console.log("2");
+    }
+    
 
-  	else if(window.innerWidth<window.innerHeight && window.innerWidth<1093) {
-  		  	var oh = "100%";
-  		  	var h = 750+"px";
-  	}
+    else if(window.innerWidth<window.innerHeight && window.innerWidth<1093) {
+          var oh = "100%";
+          var h = 750+"px";
+          var o = "100%";
+          var k = "auto";
+          console.log("3");
+    }
 
-  	else {
-  		var oh = "auto";
-  		var h = 750+"px";
-  	}
+    else {
+      var oh = "auto";
+      var h = 750+"px";
+      var o = "100%"
+      console.log("4");
+    }
 
     return (
-      <div id="container">
+      <div id="container" style={{height:k}}>
       	<div className="outerH-container" style={{height:oh}}>
       		<div><img className="logo-img" src="./logo.png"/></div>
 	      	<div className="innerH-container">
