@@ -5,7 +5,7 @@ import Home from './Home';
 import PageNotFound from './PageNotFound';
 import Header from './Header';
 import About from './About';
-
+import Start from './Start';
 //import s from '../styles/app.style';
 
 export default function App() {
@@ -13,7 +13,7 @@ export default function App() {
     <div>
 
       <Switch>
-        <Route exact path="/" component={Home} />
+        <Route exact path="/" component={Start} />
         <Route exact path="/head" component={Header} />
         <Route exact path="/about" component={About} />
         <Route component={PageNotFound} />
