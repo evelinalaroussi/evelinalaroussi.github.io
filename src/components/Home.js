@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <div>
       <p style={s.p}>
-        Hej Hej bajs
+        Hej Hej bajs portfolio
       </p>
 
       <div style={s.pageLinkContainer}>
