@@ -8,7 +8,7 @@ function About () {
 
     return (
 <div id="container" style={{height: ""}}>
-<div><Link to="/header"><img className="logo-img" src="./logo_white.png"/></Link></div>
+<div><Link to="/head"><img className="logo-img" src="./logo_white.png"/></Link></div>
 <div className="head">ABOUT ME</div>
 <hr id="headLine"/>
 
