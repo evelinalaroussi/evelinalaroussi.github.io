@@ -26,15 +26,19 @@ export default class Home extends React.Component {
         this.setState({show: "yesShow", show2: "noShow"})
     }, 6000)
 
+
+// different hights for different screen sizes
     if (window.innerWidth>1093 && window.innerHeight<590){
           var oh = "auto";
           var h = "auto";
+          var o = "100%"
           console.log("1");
     }
 
     else if (window.innerWidth>1093 && window.innerHeight>590){
           var oh = "100%";
           var h = "auto";
+          var o = "100%"
           console.log("2");
     }
     
@@ -42,19 +46,22 @@ export default class Home extends React.Component {
     else if(window.innerWidth<window.innerHeight && window.innerWidth<1093) {
           var oh = "100%";
           var h = 750+"px";
+          var o = "100%";
+          var k = "auto";
           console.log("3");
     }
 
     else {
       var oh = "auto";
       var h = 750+"px";
+      var o = "100%"
       console.log("4");
     }
     
 
     return (
       <div id="container">
-      <div id="container1" className={this.state.show2}>
+      <div id="container1" className={this.state.show2} style={{height:o}}>
         <img src="./logo.png"/>
         <div className="start-text">
           <span id="span1">Hi, </span>
@@ -67,7 +74,7 @@ export default class Home extends React.Component {
         </div>
 
 
-        <div id="container2" className={this.state.show}>
+        <div id="container2" className={this.state.show} style={{height:k}}>
         <div className="outerH-container" style={{height:oh}}>
           <div><img className="logo-img" src="./logo.png"/></div>
           <div className="innerH-container">

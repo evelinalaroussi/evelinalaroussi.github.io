@@ -6,8 +6,18 @@ import { Link } from 'react-router-dom';
 
 function About () {
 
+  if (window.innerWidth>1020 && window.innerHeight>1300){
+    var oh = "100%"
+    }
+
+    else {
+      var oh = "auto";
+
+    }
+    
+
     return (
-<div id="c" className="about-cont">
+<div id="c" className="about-cont" style={{height:oh}}>
 <div><Link to="/head"><img className="logo-img" src="./logo.png"/></Link></div>
 <div className="head">ABOUT ME</div>
 <hr id="headLine"/>
