@@ -7,8 +7,8 @@ import { Link } from 'react-router-dom';
 function About () {
 
     return (
-<div id="container" style={{height: ""}}>
-<div><Link to="/head"><img className="logo-img" src="./logo_white.png"/></Link></div>
+<div id="c" className="about-cont">
+<div><Link to="/head"><img className="logo-img" src="./logo.png"/></Link></div>
 <div className="head">ABOUT ME</div>
 <hr id="headLine"/>
 

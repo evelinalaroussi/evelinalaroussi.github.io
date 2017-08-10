@@ -276,6 +276,13 @@ html, body {
    height: 100%;
 }
 
+.about-cont {
+    background-image: url(background2.png);
+  background-repeat:no-repeat;
+
+   background-size:cover;
+}
+
 #c1, #c2, #c3 {
 	width: 100px;
     border:1px solid black;
@@ -353,7 +360,7 @@ html, body {
   font-weight: bold;
   text-align: center;
   max-width: 70em;
-  margin: 4em auto 4em;
+  margin: 0;
   position:relative;
   padding:30px;
 }
