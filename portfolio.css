@@ -532,7 +532,8 @@ html, body {
 	}
 
 	.start-text {
-		font-size: 100px;
+		font-size: 80px;
+    margin-top: 50px;
 	}
 
 	.start-logo img {
@@ -585,7 +586,7 @@ html, body {
   height:100%;
 }
 
-.workImg:hover {
+.workImg > img:hover {
   opacity: 0.2
 }
 
