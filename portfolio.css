@@ -610,3 +610,19 @@ html, body {
   width:350px;
   height: 150px;
 }
+
+#recept {
+  width:300px;
+  height: 200px;
+}
+
+#portfolio {
+  width:250px;
+  height: 250px;
+  background-color: lightblue;
+}
+
+#haptik {
+  width:300px;
+  height: 200px;
+}

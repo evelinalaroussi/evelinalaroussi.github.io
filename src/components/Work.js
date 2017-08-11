@@ -15,14 +15,16 @@ function Work () {
           <div className="head">MY WORK AND PROJECTS</div>
           <hr id="headLine"/>
           <div className="images">
+            <img className="workImg" id="portfolio" src="./logo.png"/>
             <img className="workImg" id="beer" src="./work_images/imgglass1.jpg"/>
-            <img className="workImg" id="unichat" src="./work_images/unichat.png"/>
-            <img className="workImg" id="meetingplanner" src="./work_images/meetingplanner.png"/>
             <img className="workImg" id="maps" src="./work_images/maps.png"/>
             <img className="workImg" id="kthres" src="./work_images/kthres.png"/>
+            <img className="workImg" id="haptik" src="./work_images/haptik.png"/>
             <img className="workImg" id="iris" src="./work_images/iris.png"/>
+            <img className="workImg" id="unichat" src="./work_images/unichat.png"/>
+            <img className="workImg" id="meetingplanner" src="./work_images/meetingplanner.png"/>
             <img className="workImg" id="stroller" src="./work_images/stroller.png"/>
-
+            <img className="workImg" id="recept" src="./work_images/recept.png"/>
           </div>
         </div>
     </div>
