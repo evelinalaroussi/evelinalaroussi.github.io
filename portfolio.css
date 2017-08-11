@@ -629,14 +629,29 @@ html, body {
 
 
 @media (max-width: 1093px) {
+
+  #meetingplanner {
+  width: 250px;
+  height: 150px;
+}
   #stroller {
-    width: 300px;
+    width: 250px;
     height: 100px;
   }
 
   #maps {
-    width: 300px;
+    width: 250px;
     height: 150px;
   }
+
+  #kthres {
+  width: 250px;
+  height: 150px;
+}
+
+#recept {
+  width:250px;
+  height: 150px;
+}
  
 }
