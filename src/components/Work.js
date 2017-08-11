@@ -4,10 +4,12 @@ import { Link } from 'react-router-dom';
 //import { Code } from '../styles/style';
 //import s from '../styles/home.style';
 
-function Work () {
+export default class Work extends React.Component {
+  hover(name) {
+    console.log(name);
+  }
 
-  
-
+render() {
     return (
       <div id="container">
         <div id="work-container">
@@ -15,21 +17,19 @@ function Work () {
           <div className="head">MY WORK AND PROJECTS</div>
           <hr id="headLine"/>
           <div className="images">
-            <img className="workImg" id="portfolio" src="./logo.png"/>
-            <img className="workImg" id="beer" src="./work_images/imgglass1.jpg"/>
-            <img className="workImg" id="maps" src="./work_images/maps.png"/>
-            <img className="workImg" id="kthres" src="./work_images/kthres.png"/>
-            <img className="workImg" id="haptik" src="./work_images/haptik.png"/>
-            <img className="workImg" id="iris" src="./work_images/iris.png"/>
-            <img className="workImg" id="unichat" src="./work_images/unichat.png"/>
-            <img className="workImg" id="meetingplanner" src="./work_images/meetingplanner.png"/>
-            <img className="workImg" id="stroller" src="./work_images/stroller.png"/>
-            <img className="workImg" id="recept" src="./work_images/recept.png"/>
+            <div className="workImg" id="portfolio"><p>hej</p><img src="./logo.png" onMouseEnter={this.hover.bind(this, 'portfolio')}/></div>
+            <div className="workImg" id="beer"><p>hej</p><img src="./work_images/imgglass1.jpg" onMouseOver={this.hover.bind(this, 'beer')}/></div>
+            <div className="workImg" id="maps"><p>hej</p><img src="./work_images/maps.png" onMouseEnter={this.hover.bind(this, 'maps')}/></div>
+            <div className="workImg" id="kthres"><p>hej</p><img src="./work_images/kthres.png" onMouseEnter={this.hover.bind(this, 'kthres')}/></div>
+            <div className="workImg" id="haptik"><p>hej</p><img src="./work_images/haptik.png" onMouseEnter={this.hover.bind(this, 'haptik')}/></div>
+            <div className="workImg" id="iris"><p>hej</p><img src="./work_images/iris.png" onMouseEnter={this.hover.bind(this, 'iris')}/></div>
+            <div className="workImg" id="unichat"><p>hej</p><img src="./work_images/unichat.png" onMouseEnter={this.hover.bind(this, 'unischat')}/></div>
+            <div className="workImg" id="meetingplanner"><p>hej</p><img src="./work_images/meetingplanner.png" onMouseOver={this.hover.bind(this, 'meetingplanner')}/></div>
+            <div className="workImg" id="stroller"><p>hej</p><img src="./work_images/stroller.png" onMouseEnter={this.hover.bind(this, 'stroller')}/></div>
+            <div className="workImg" id="recept"><p>hej</p><img src="./work_images/recept.png" onMouseOver={this.hover.bind(this, 'recept')}/></div>
           </div>
         </div>
     </div>
 )
+}
   };
-
-
-export default Work;
