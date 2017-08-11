@@ -626,3 +626,17 @@ html, body {
   width:300px;
   height: 200px;
 }
+
+
+@media (max-width: 1093px) {
+  #stroller {
+    width: 300px;
+    height: 100px;
+  }
+
+  #maps {
+    width: 300px;
+    height: 150px;
+  }
+ 
+}
