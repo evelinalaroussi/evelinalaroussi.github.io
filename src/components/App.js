@@ -4,6 +4,7 @@ import { Switch, Route } from 'react-router-dom';
 import Home from './Home';
 import Header from './Header';
 import About from './About';
+import Work from './Work';
 //import s from '../styles/app.style';
 
 export default function App() {
@@ -14,6 +15,8 @@ export default function App() {
         <Route exact path="/" component={Home} />
         <Route exact path="/head" component={Header} />
         <Route exact path="/about" component={About} />
+        <Route exact path="/work" component={Work} />
+
       </Switch>
 
     </div>

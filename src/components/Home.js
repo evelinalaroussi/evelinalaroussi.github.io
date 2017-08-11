@@ -23,7 +23,8 @@ export default class Home extends React.Component {
 
 
     setTimeout(() => {
-        this.setState({show: "yesShow", show2: "noShow"})
+      if (this.refs.myRef)
+        this.setState({show: "yesShow", show2: "noShow"});
     }, 6000)
 
 
@@ -60,7 +61,7 @@ export default class Home extends React.Component {
     
 
     return (
-      <div id="container">
+      <div id="container" ref="myRef">
       <div id="container1" className={this.state.show2} style={{height:o}}>
         <img src="./logo.png"/>
         <div className="start-text">
@@ -92,7 +93,7 @@ export default class Home extends React.Component {
         
           </div>
       
-          <div className="circles" style={{height: h}}><Link to={`/About`}><div id="c1" >About.</div></Link><Link to={`/example`}><div id="c2" >Work.</div></Link><Link to={`/example`}><div id="c3">Contact.</div></Link></div>
+          <div className="circles" style={{height: h}}><Link to={`/About`}><div id="c1" >About.</div></Link><Link to={`/work`}><div id="c2" >Work.</div></Link><Link to={`/example`}><div id="c3">Contact.</div></Link></div>
 
       </div>
       </div>
