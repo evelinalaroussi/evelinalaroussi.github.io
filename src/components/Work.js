@@ -11,6 +11,7 @@ export default class Work extends React.Component {
     this.state = {port:" ", beer: " ", maps: " ", kthres: " ", haptik: " ", iris: " ", unichat: " ", meetingplanner: " ", stroller: " ", recept: " "};
   } 
 
+
   hover(name) {
 
     if (name == "portfolio"){
@@ -83,7 +84,12 @@ export default class Work extends React.Component {
   }
 
 render() {
-  
+
+  if(window.innerWidth<450){
+    console.log("HJ");
+    window.scrollTo(0, 0)
+  }
+
     return (
       <div id="container">
         <div id="work-container">

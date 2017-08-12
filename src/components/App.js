@@ -11,14 +11,12 @@ import Thissite from './Thissite'
 export default function App() {
   return (
     <div>
-
       <Switch>
         <Route exact path="/" component={Home} />
         <Route exact path="/head" component={Header} />
         <Route exact path="/about" component={About} />
         <Route exact path="/work" component={Work} />
         <Route exact path="/thissite" component={Thissite} />
-
       </Switch>
 
     </div>

@@ -13,12 +13,13 @@ export default class Work extends React.Component {
 
 
 render() {
+
     return (
       <div id="siteContainer" className="thissite">
       <div className = "this-img">
         <div className="head"><p>THIS SITE</p></div>
         <hr id="headLine"/>
-        <div className="button-div"><button id="button">Back to listing</button></div>
+        <Link to="/work"><div className="button-div"><button id="button">Back to listing</button></div></Link>
         <img id="mcbook" src="./work_images/mcbook2.png"/>
       </div>
       <div className="this-text">

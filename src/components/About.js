@@ -20,10 +20,10 @@ function About () {
     
 
     return (
-<div id="c" className="about-cont" style={{height:oh}}>
-<div><Link to="/head"><img className="logo-img" src="./logo.png"/></Link></div>
-<div className="head">ABOUT ME</div>
-<hr id="headLine"/>
+    <div id="c" className="about-cont" style={{height:oh}}>
+    <div><Link to="/head"><img className="logo-img" src="./logo.png"/></Link></div>
+    <div className="head">ABOUT ME</div>
+    <hr id="headLine"/>
 
     <div className="meContainer">
           <div id="meText">
