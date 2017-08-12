@@ -83,8 +83,7 @@ export default class Work extends React.Component {
   }
 
 render() {
-
-  window.scrollTo(0, 0);
+  
     return (
       <div id="container">
         <div id="work-container">
