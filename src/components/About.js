@@ -6,6 +6,9 @@ import { Link } from 'react-router-dom';
 
 function About () {
 
+
+  window.scrollTo(0, 0);
+  
   if (window.innerWidth>1020 && window.innerHeight>1300){
     var oh = "100%"
     }

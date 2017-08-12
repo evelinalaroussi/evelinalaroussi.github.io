@@ -11,7 +11,6 @@ export default class Work extends React.Component {
     this.state = {port:" ", beer: " ", maps: " ", kthres: " ", haptik: " ", iris: " ", unichat: " ", meetingplanner: " ", stroller: " ", recept: " "};
   } 
 
-
   hover(name) {
 
     if (name == "portfolio"){
@@ -84,10 +83,12 @@ export default class Work extends React.Component {
   }
 
 render() {
+
+  window.scrollTo(0, 0);
     return (
       <div id="container">
         <div id="work-container">
-          <div><img className="logo-img" src="./logo.png"/></div>
+          <Link to="/head"><div><img className="logo-img" src="./logo.png"/></div></Link>
           <div className="head">MY WORK AND PROJECTS</div>
           <hr id="headLine"/>
           <div className="images">
