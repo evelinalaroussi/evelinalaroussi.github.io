@@ -8,7 +8,7 @@ function About () {
 
 
   window.scrollTo(0, 0);
-  
+
   if (window.innerWidth>1020 && window.innerHeight>1300){
     var oh = "100%"
     }
@@ -45,7 +45,7 @@ function About () {
       <dd>3</dd>
       <dt className="skill-8">InteractionDesign</dt>
       <dd>8</dd>
-      <dt className="skill-4">Photoshop</dt>
+      <dt className="skill-4">PS</dt>
       <dd>4</dd>
       <dt className="skill-11">Python</dt>
       <dd>4</dd>

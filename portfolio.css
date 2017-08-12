@@ -2,7 +2,7 @@ html, body {
 	margin:0;
 	padding:0;
 	height:100%;
-	font-family: 'Oswald', sans-serif;
+	font-family: 'Garamond', sans-serif;
 
 }
 
@@ -433,9 +433,9 @@ html, body {
 .skills-diagram .skill-5 {
   vertical-align: bottom;
 
-  width: 5em;
-  height: 5em;
-  line-height: 5em;
+  width: 4em;
+  height: 4em;
+  line-height: 4em;
   background-color: rgba(109, 182, 173, .4);
   border-color: rgba(109, 182, 173, 1);
   color: rgba(109, 182, 173, 1);
@@ -443,9 +443,9 @@ html, body {
 .skills-diagram .skill-6 {
   vertical-align: top;
   
-  width: 6em;
-  height: 6em;
-  line-height: 6em;
+  width: 7em;
+  height: 7em;
+  line-height: 7em;
   background-color: rgba(195, 192, 100, .4);
   border-color: rgba(195, 192, 100, 1);
   color: rgba(195, 192, 100, 1);
@@ -462,9 +462,9 @@ html, body {
 .skills-diagram .skill-8 {
   vertical-align: bottom;
   
-  width: 8em;
-  height: 8em;
-  line-height: 8em;
+  width: 9em;
+  height: 9em;
+  line-height: 9em;
   background-color: rgba(46, 138, 75, .4);
   border-color: rgba(46, 138, 75, 1);
   color: rgba(46, 138, 75, 1);
@@ -552,7 +552,7 @@ html, body {
 }
 
 @font-face {
-  font-family: 'Oswald';
+  font-family: 'Garamond';
   font-style: normal;
   font-weight: 400;
 }
