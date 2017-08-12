@@ -515,6 +515,11 @@ html, body {
 	border: 3px solid #ffc34d;
 }
 
+#miniheadLine {
+  width:30%;
+  border: 3px solid #ffc34d;
+}
+
 
 
 /*Media queries*/
@@ -545,7 +550,6 @@ html, body {
 		width:30%;
 	}
 }
-
 
 @font-face {
   font-family: 'Oswald';
@@ -681,3 +685,64 @@ color: white;
 }
  
 }
+
+#siteContainer {
+    background-image: url(background2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100%;
+}
+
+
+.this-img {
+  text-align: center;
+  padding-top: 20px;
+}
+
+#mcbook {
+  width:70%;
+}
+
+.this-img p {
+      margin: 0 auto;
+
+}
+
+
+button {
+  outline:none;
+  height: 40px;
+  text-align: center;
+  width: 130px;
+  background: none;
+  border: 2px solid pink;
+  letter-spacing:1px;
+  text-shadow:0;
+  margin-top: 20px;
+}
+
+button:hover {
+  background-color: pink;
+}
+
+.this-text {
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.tech, .desc {
+  width: 50%;
+  float: left;
+}
+
+.tech p, .desc p {
+  width:70%;
+  margin:0 auto;
+}
+
+.this-text::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
