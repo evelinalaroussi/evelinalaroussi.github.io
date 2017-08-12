@@ -566,15 +566,16 @@ html, body {
   margin-top: 50px;
 }
 .workImg {
-  padding:30px;
+  margin:30px;
   display: inline-block;
 /*    position:absolute;*/
   text-align: center;
   vertical-align: middle;
   line-height: 90px; 
   font-family:garamond;
-  opacity: 0.7;
+  opacity: 0.5;
   position: relative;
+  background-color: black;
 }
 
 .workImg > p {
@@ -584,6 +585,7 @@ html, body {
 margin-right: auto;
 left: 0;
 right: 0;
+color: white;
 }
 
 .workImg > img {
@@ -592,7 +594,7 @@ right: 0;
 }
 
 .workImg > img:hover {
-  opacity: 0.2
+  opacity: 0.2;
 }
 
 #beer {
@@ -638,7 +640,6 @@ right: 0;
 #portfolio {
   width:250px;
   height: 250px;
-  background-color: lightblue;
 }
 
 #haptik {
