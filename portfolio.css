@@ -579,6 +579,11 @@ html, body {
 
 .workImg > p {
   position: absolute;
+  font-size: 25px;
+  margin-left: auto;
+margin-right: auto;
+left: 0;
+right: 0;
 }
 
 .workImg > img {
