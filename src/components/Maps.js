@@ -10,9 +10,7 @@ export default class Work extends React.Component {
 
   } 
 
-
 render() {
-
     return (
       <div id="siteContainer" className="thissite">
       <Link to="/head"><div><img className="logo-img" src="./logo.png"/></div></Link>

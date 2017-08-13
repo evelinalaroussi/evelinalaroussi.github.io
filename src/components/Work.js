@@ -83,6 +83,12 @@ export default class Work extends React.Component {
     
   }
 
+  handleClick(name){
+
+    window.location.href = "/"+name;
+    
+  }
+
 render() {
 
   if(window.innerWidth<450){
@@ -97,9 +103,9 @@ render() {
           <div className="head">MY WORK AND PROJECTS</div>
           <hr id="headLine"/>
           <div className="images">
-            <Link to={`/thissite`}><div className="workImg" id="portfolio"><p> {this.state.port} </p><img src="./logo_white.png" onMouseEnter={this.hover.bind(this, 'portfolio')} onMouseLeave={this.nohover.bind(this, 'portfolio')}/></div></Link>
+            <div className="workImg" id="portfolio" onClick={this.handleClick.bind(this, 'thissite')}><p> {this.state.port} </p><img src="./logo_white.png" onMouseEnter={this.hover.bind(this, 'portfolio')} onMouseLeave={this.nohover.bind(this, 'portfolio')}/></div>
             <div className="workImg" id="beer"><p>{this.state.beer}</p><img src="./work_images/imgglass1.jpg" onMouseEnter={this.hover.bind(this, 'beer')} onMouseLeave={this.nohover.bind(this, 'beer')}/></div>
-            <Link to={`/maps`}><div className="workImg" id="maps"><p>{this.state.maps}</p><img src="./work_images/maps.png" onMouseEnter={this.hover.bind(this, 'maps')} onMouseLeave={this.nohover.bind(this, 'maps')}/></div></Link>
+            <div className="workImg" id="maps" onClick={this.handleClick.bind(this, 'maps')}><p>{this.state.maps}</p><img src="./work_images/maps.png" onMouseEnter={this.hover.bind(this, 'maps')} onMouseLeave={this.nohover.bind(this, 'maps')}/></div>
             <div className="workImg" id="kthres"><p>{this.state.kthres}</p><img src="./work_images/kthres.png" onMouseEnter={this.hover.bind(this, 'kthres')} onMouseLeave={this.nohover.bind(this, 'kthres')}/></div>
             <div className="workImg" id="haptik"><p>{this.state.haptik}</p><img src="./work_images/haptik.png" onMouseEnter={this.hover.bind(this, 'haptik')} onMouseLeave={this.nohover.bind(this, 'haptik')}/></div>
             <div className="workImg" id="iris"><p>{this.state.iris}</p><img src="./work_images/iris.png" onMouseEnter={this.hover.bind(this, 'iris')} onMouseLeave={this.nohover.bind(this, 'iris')}/></div>
