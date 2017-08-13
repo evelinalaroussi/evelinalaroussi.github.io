@@ -94,7 +94,6 @@ export default class Home extends React.Component {
           </div>
       
           <div className="circles" style={{height: h}}><Link to={`/About`}><div id="c1" >About.</div></Link><Link to={`/work`}><div id="c2" >Work.</div></Link><Link to={`/example`}><div id="c3">Contact.</div></Link></div>
-
       </div>
       </div>
       </div>

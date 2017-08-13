@@ -709,25 +709,27 @@ color: white;
 }
 
 
-button {
+.button-div button {
   outline:none;
   height: 40px;
   text-align: center;
   width: 130px;
   background: none;
-  border: 2px solid pink;
+  border: 3px solid #ebc6d6;
   letter-spacing:1px;
   text-shadow:0;
   margin-top: 20px;
+  margin-bottom: 20px;
 }
 
-button:hover {
-  background-color: pink;
+.button-div button:hover {
+  background-color: #ebc6d6;
 }
 
 .this-text {
   text-align: center;
   padding-bottom: 50px;
+  padding-top: 50px;
 }
 
 .tech, .desc {
@@ -746,3 +748,16 @@ button:hover {
   clear: both;
 }
 
+li >span {
+position: relative; left: -10px;
+}
+
+
+.slider {
+  width:70% !important;
+  margin: 0 auto !important;
+}
+
+li button {
+  font-size: 12px !important;
+}

@@ -11,16 +11,15 @@ export default class Work extends React.Component {
   } 
 
 
-
 render() {
 
     return (
       <div id="siteContainer" className="thissite">
       <div className = "this-img">
-        <div className="head"><p>THIS SITE</p></div>
+        <div className="head"><p>MY MAPS</p></div>
         <hr id="headLine"/>
         <Link to="/work"><div className="button-div"><button id="button">Back to listing</button></div></Link>
-        <img id="mcbook" src="./work_images/mcbook2.png"/>
+        <Slider/>
       </div>
       <div className="this-text">
           <div className="tech">
@@ -39,4 +38,24 @@ render() {
     </div>
 )
 }
-  };
+};
+
+
+// Try out some settings live!
+
+var Carousel = require('nuka-carousel');
+
+class Slider extends React.Component {
+  mixins: [Carousel.ControllerMixin];
+  render() {
+    return (
+      <Carousel dragging={true}>
+        <img src="./work_images/maps.png"/>
+        <img src="./work_images/maps1.png"/>
+        <img src="./work_images/maps3.png"/>
+        <img src="./work_images/maps4.png"/>
+        <img src="./work_images/maps2.png"/>
+      </Carousel>
+    )
+  }
+};

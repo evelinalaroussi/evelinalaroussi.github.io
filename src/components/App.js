@@ -6,6 +6,7 @@ import Header from './Header';
 import About from './About';
 import Work from './Work';
 import Thissite from './Thissite'
+import Maps from './Maps'
 //import s from '../styles/app.style';
 
 export default function App() {
@@ -17,6 +18,8 @@ export default function App() {
         <Route exact path="/about" component={About} />
         <Route exact path="/work" component={Work} />
         <Route exact path="/thissite" component={Thissite} />
+        <Route exact path="/maps" component={Maps} />
+
       </Switch>
 
     </div>
