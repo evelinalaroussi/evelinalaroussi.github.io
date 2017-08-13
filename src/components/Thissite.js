@@ -16,6 +16,8 @@ render() {
 
     return (
       <div id="siteContainer" className="thissite">
+      <Link to="/head"><div><img className="logo-img" src="./logo.png"/></div></Link>
+
       <div className = "this-img">
         <div className="head"><p>THIS SITE</p></div>
         <hr id="headLine"/>

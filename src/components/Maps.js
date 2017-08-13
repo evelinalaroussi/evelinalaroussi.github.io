@@ -15,6 +15,8 @@ render() {
 
     return (
       <div id="siteContainer" className="thissite">
+      <Link to="/head"><div><img className="logo-img" src="./logo.png"/></div></Link>
+
       <div className = "this-img">
         <div className="head"><p>MY MAPS</p></div>
         <hr id="headLine"/>
@@ -25,13 +27,17 @@ render() {
           <div className="tech">
             <h3>WHAT I USED</h3>
             <hr id="miniheadLine"/>
-            <p>- ReactJS + react routing</p>
-            <p>- CSS</p>
-
+            <p>-AngularJs for frontend</p>
+            <p>-NodeJs + express for server side</p>
+            <p>-HTML + CSS for layout</p>
+            <p>-Jquery for developing the map application </p>
+            <p>-google maps API</p>
+            <p>-Firebase as database</p>
+            <p>-MVC as pattern</p>
           </div>
           <div className="desc"><h3>DESCRIPTION</h3>
           <hr id="miniheadLine"/>
-          <p>I built this portfolio over the summer as a project to learn react, but also to improve my design skills </p>
+          <p>This website is the result of a project in a course called internetprogramming. It is a social media website where you can create maps, place multiple pins on it, and share it with others by having people following you and follow them back. To try it out: <a href="https://github.com/evelinalaroussi/internetprogrammering">Github repository</a></p>
 
           </div>
       </div>
