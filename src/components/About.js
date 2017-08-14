@@ -27,8 +27,8 @@ function About () {
 
     <div className="meContainer">
           <div id="meText">
-            <p>What i like the most about working with media technology is the impact it has in people. I think it is interesting to work with developing new concepts and to reach many people at the same time. The media technology industry is growing everyday and is an important part of our future. <span id="bigger">It is simply a development that i want to be a part of.</span> </p>
-            <p>As a front end developer, i truly enjoy the vision of an application or website coming together piece by piece. I love being challenged and learn more coding to get a broader skillset. Even though i love coding, i also have an intresst for interaction design.</p>
+            <p>What I like the most about working with media technology is the impact it has in people. I think it is interesting to work with developing new concepts and to reach many people at the same time. The media technology industry is growing everyday and is an important part of our future. <span id="bigger">It is simply a development that i want to be a part of.</span> </p>
+            <p>As a front-end developer, I truly enjoy the vision of an application or website coming together piece by piece. I love being challenged and learn more coding to get a broader skillset. Even though I love coding, I also have an intresst for interaction design.</p>
       
             <p>I am currently working as a front-end developer and UX designer at <a href="www.twebcast.com">Twebcast</a></p>
           </div>

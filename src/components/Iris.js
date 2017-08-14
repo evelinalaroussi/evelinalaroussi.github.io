@@ -19,7 +19,7 @@ render() {
       <Link to="/head"><div><img className="logo-img" src="./logo.png"/></div></Link>
 
       <div className = "this-img">
-        <div className="head"><p>Cooking with iris</p></div>
+        <div className="head"><p>Cooking with Iris</p></div>
         <hr id="headLine"/>
         <Link to="/work"><div className="button-div"><button id="button">Back to listing</button></div></Link>
         <iframe width="560" height="315" src="https://www.youtube.com/embed/h9BJzEpLytA" frameborder="0" allowfullscreen></iframe>
