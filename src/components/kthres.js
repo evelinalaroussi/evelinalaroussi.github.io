@@ -16,7 +16,7 @@ render() {
       <Link to="/head"><div><img className="logo-img" src="./logo.png"/></div></Link>
 
       <div className = "this-img">
-        <div className="head"><p>MY MAPS</p></div>
+        <div className="head"><p>KTH travel</p></div>
         <hr id="headLine"/>
         <Link to="/work"><div className="button-div"><button id="button" className="sliderB">Back to listing</button></div></Link>
         <Slider/>

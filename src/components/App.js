@@ -8,7 +8,11 @@ import Work from './Work';
 import Thissite from './Thissite';
 import Maps from './Maps';
 import Glass from './Glass';
-import Kthres from './kthres';
+import Kthres from './Kthres';
+import Haptik from './Haptik';
+import Iris from './Iris';
+import Unichat from './Unichat';
+
 //import s from '../styles/app.style';
 
 export default function App() {
@@ -23,8 +27,11 @@ export default function App() {
         <Route exact path="/maps" component={Maps} />
         <Route exact path="/glass" component={Glass} />
         <Route exact path="/kthres" component={Kthres} />
-      </Switch>
+        <Route exact path="/haptik" component={Haptik} />
+        <Route exact path="/iris" component={Iris} />
+        <Route exact path="/unichat" component={Unichat} />
 
+      </Switch>
     </div>
   );
 }

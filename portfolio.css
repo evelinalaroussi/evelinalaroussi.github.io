@@ -517,7 +517,7 @@ html, body {
 }
 
 #miniheadLine {
-  width:30%;
+  width:50%;
   border: 3px solid #ffc34d;
 }
 
@@ -769,7 +769,7 @@ li button {
 }
 
 .tech div, .desc div {
-  width: 50%;
+  width: 70%;
   text-align: initial;
   margin:0 auto;
 }
