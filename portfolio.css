@@ -294,6 +294,7 @@ html, body {
 	vertical-align: middle;
 	line-height: 90px; 
 	font-family:garamond;
+  color:purple;
 
 }
 
@@ -719,7 +720,11 @@ color: white;
   letter-spacing:1px;
   text-shadow:0;
   margin-top: 20px;
-  margin-bottom: 20px;
+}
+
+.button-div .sliderB {
+    margin-bottom: 100px;
+
 }
 
 .button-div button:hover {
@@ -740,6 +745,7 @@ color: white;
 .tech p, .desc p {
   width:70%;
   margin:0 auto;
+  padding-left: 10%;
 }
 
 .this-text::after {
@@ -760,4 +766,21 @@ position: relative; left: -10px;
 
 li button {
   font-size: 12px !important;
+}
+
+.tech div, .desc div {
+  width: 50%;
+  text-align: initial;
+  margin:0 auto;
+}
+
+
+#misuse {
+  width:50%;
+  margin-top: 50px;
+}
+
+iframe {
+  width:50%;
+  margin-top: 50px;
 }

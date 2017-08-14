@@ -28,13 +28,13 @@ render() {
           <div className="tech">
             <h3>WHAT I USED</h3>
             <hr id="miniheadLine"/>
-            <p>- ReactJS + react routing</p>
-            <p>- CSS</p>
+            <div><p>- ReactJS & react routing</p>
+            <p>- CSS</p></div>
 
           </div>
           <div className="desc"><h3>DESCRIPTION</h3>
           <hr id="miniheadLine"/>
-          <p>I built this portfolio over the summer as a project to learn react, but also to improve my design skills </p>
+          <div><p>I built this portfolio over the summer as a project to learn react, but also to improve my design skills </p></div>
 
           </div>
       </div>

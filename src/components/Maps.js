@@ -18,24 +18,25 @@ render() {
       <div className = "this-img">
         <div className="head"><p>MY MAPS</p></div>
         <hr id="headLine"/>
-        <Link to="/work"><div className="button-div"><button id="button">Back to listing</button></div></Link>
+        <Link to="/work"><div className="button-div"><button id="button" className="sliderB">Back to listing</button></div></Link>
         <Slider/>
       </div>
       <div className="this-text">
           <div className="tech">
             <h3>WHAT I USED</h3>
             <hr id="miniheadLine"/>
-            <p>-AngularJs for frontend</p>
+            <div><p>-AngularJs for frontend</p>
             <p>-NodeJs + express for server side</p>
             <p>-HTML + CSS for layout</p>
             <p>-Jquery for developing the map application </p>
             <p>-google maps API</p>
             <p>-Firebase as database</p>
-            <p>-MVC as pattern</p>
+            <p>-MVC as pattern</p></div>
           </div>
           <div className="desc"><h3>DESCRIPTION</h3>
           <hr id="miniheadLine"/>
-          <p>This website is the result of a project in a course called internetprogramming. It is a social media website where you can create maps, place multiple pins on it, and share it with others by having people following you and follow them back. To try it out: <a href="https://github.com/evelinalaroussi/internetprogrammering">Github repository</a></p>
+
+          <div><p>This website is the result of a project in a course called internetprogramming. It is a social media website where you can create maps, place multiple pins on it, and share it with others by having people following you and follow them back. To try it out: <a href="https://github.com/evelinalaroussi/internetprogrammering">Github repository</a></p></div>
 
           </div>
       </div>
