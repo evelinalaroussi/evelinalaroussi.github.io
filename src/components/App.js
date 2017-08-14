@@ -12,7 +12,9 @@ import Kthres from './Kthres';
 import Haptik from './Haptik';
 import Iris from './Iris';
 import Unichat from './Unichat';
-
+import Meetingplanner from './Meetingplanner';
+import Roller from './Roller';
+import Recipe from './Recipe';
 //import s from '../styles/app.style';
 
 export default function App() {
@@ -30,6 +32,9 @@ export default function App() {
         <Route exact path="/haptik" component={Haptik} />
         <Route exact path="/iris" component={Iris} />
         <Route exact path="/unichat" component={Unichat} />
+		<Route exact path="/meetingplanner" component={Meetingplanner} />
+		<Route exact path="/rollerstroller" component={Roller} />
+	    <Route exact path="/recipe" component={Recipe} />
 
       </Switch>
     </div>

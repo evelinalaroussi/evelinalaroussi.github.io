@@ -110,9 +110,9 @@ render() {
             <div className="workImg" id="haptik" onClick={this.handleClick.bind(this, 'haptik')}><p>{this.state.haptik}</p><img src="./work_images/haptik.png" onMouseEnter={this.hover.bind(this, 'haptik')} onMouseLeave={this.nohover.bind(this, 'haptik')}/></div>
             <div className="workImg" id="iris" onClick={this.handleClick.bind(this, 'iris')}><p>{this.state.iris}</p><img src="./work_images/iris.png" onMouseEnter={this.hover.bind(this, 'iris')} onMouseLeave={this.nohover.bind(this, 'iris')}/></div>
             <div className="workImg" id="unichat" onClick={this.handleClick.bind(this, 'unichat')}><p>{this.state.unichat}</p><img src="./work_images/unichat.png" onMouseEnter={this.hover.bind(this, 'unichat')} onMouseLeave={this.nohover.bind(this, 'unichat')}/></div>
-            <div className="workImg" id="meetingplanner"><p>{this.state.meetingplanner}</p><img src="./work_images/meetingplanner.png" onMouseEnter={this.hover.bind(this, 'meetingplanner')}onMouseLeave={this.nohover.bind(this, 'meetingplanner')}/></div>
-            <div className="workImg" id="stroller"><p>{this.state.stroller}</p><img src="./work_images/stroller.png" onMouseEnter={this.hover.bind(this, 'stroller')} onMouseLeave={this.nohover.bind(this, 'stroller')}/></div>
-            <div className="workImg" id="recept"><p>{this.state.recept}</p><img src="./work_images/recept.png" onMouseEnter={this.hover.bind(this, 'recept')} onMouseLeave={this.nohover.bind(this, 'recept')}/></div>
+            <div className="workImg" id="meetingplanner" onClick={this.handleClick.bind(this, 'meetingplanner')}><p>{this.state.meetingplanner}</p><img src="./work_images/meetingplanner.png" onMouseEnter={this.hover.bind(this, 'meetingplanner')}onMouseLeave={this.nohover.bind(this, 'meetingplanner')}/></div>
+            <div className="workImg" id="stroller" onClick={this.handleClick.bind(this, 'rollerstroller')}><p>{this.state.stroller}</p><img src="./work_images/stroller.png" onMouseEnter={this.hover.bind(this, 'stroller')} onMouseLeave={this.nohover.bind(this, 'stroller')}/></div>
+            <div className="workImg" id="recept" onClick={this.handleClick.bind(this, 'recipe')}><p>{this.state.recept}</p><img src="./work_images/recept.png" onMouseEnter={this.hover.bind(this, 'recept')} onMouseLeave={this.nohover.bind(this, 'recept')}/></div>
           </div>
         </div>
     </div>
