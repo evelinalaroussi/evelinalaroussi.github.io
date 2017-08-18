@@ -77,13 +77,13 @@ export default class Home extends React.Component {
 
         <div id="container2" className={this.state.show} style={{height:k}}>
         <div className="outerH-container" style={{height:oh}}>
-          <div><img className="logo-img" src="./logo.png"/></div>
+          <div><img className="logo-img" src="/logo.png"/></div>
           <div className="innerH-container">
               <div className="header-text">
               <h2>Evelina Laroussi</h2>
               <p>Who am i? </p>
               </div>
-                <img className="header-img" src="./cv.jpg"/>
+                <img className="header-img" src="/cv.jpg"/>
           
                 <div className="header-hr"><hr id="ett"/><hr id="tva"/></div>
           

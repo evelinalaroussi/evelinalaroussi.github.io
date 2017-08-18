@@ -13,7 +13,7 @@ export default class Work extends React.Component {
 render() {
     return (
       <div id="siteContainer" className="thissite">
-      <Link to="/head"><div><img className="logo-img" src="./logo.png"/></div></Link>
+      <Link to="/head"><div><img className="logo-img" src="/logo.png"/></div></Link>
 
       <div className = "this-img">
         <div className="head"><p>MY MAPS</p></div>
@@ -55,11 +55,11 @@ class Slider extends React.Component {
   render() {
     return (
       <Carousel dragging={true}>
-        <img src="./work_images/maps.png"/>
-        <img src="./work_images/maps1.png"/>
-        <img src="./work_images/maps3.png"/>
-        <img src="./work_images/maps4.png"/>
-        <img src="./work_images/maps2.png"/>
+        <img src="/work_images/maps.png"/>
+        <img src="/work_images/maps1.png"/>
+        <img src="/work_images/maps3.png"/>
+        <img src="/work_images/maps4.png"/>
+        <img src="/work_images/maps2.png"/>
       </Carousel>
     )
   }

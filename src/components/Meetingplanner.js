@@ -13,7 +13,7 @@ export default class Meetingplanner extends React.Component {
 render() {
     return (
       <div id="siteContainer" className="thissite">
-      <Link to="/head"><div><img className="logo-img" src="./logo.png"/></div></Link>
+      <Link to="/head"><div><img className="logo-img" src="/logo.png"/></div></Link>
 
       <div className = "this-img">
         <div className="head"><p>Haptic and e-commerce</p></div>
@@ -54,9 +54,9 @@ class Slider extends React.Component {
   render() {
     return (
       <Carousel dragging={true}>
-        <img src="./work_images/meetingplanner.png"/>
-        <img src="./work_images/meetingplanner3.png"/>
-        <img src="./work_images/meetinplanner2.png"/>
+        <img src="/work_images/meetingplanner.png"/>
+        <img src="/work_images/meetingplanner3.png"/>
+        <img src="/work_images/meetinplanner2.png"/>
       </Carousel>
     )
   }

@@ -16,13 +16,13 @@ render() {
 
     return (
       <div id="siteContainer" className="thissite">
-      <Link to="/head"><div><img className="logo-img" src="./logo.png"/></div></Link>
+      <Link to="/head"><div><img className="logo-img" src="/logo.png"/></div></Link>
 
       <div className = "this-img">
         <div className="head"><p>THIS SITE</p></div>
         <hr id="headLine"/>
         <Link to="/work"><div className="button-div"><button id="button">Back to listing</button></div></Link>
-        <img id="strollerimg" src="./work_images/stroller.png"/>
+        <img id="strollerimg" src="/work_images/stroller.png"/>
       </div>
       <div className="this-text">
           <div className="tech">

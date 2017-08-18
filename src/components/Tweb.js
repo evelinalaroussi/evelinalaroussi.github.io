@@ -13,7 +13,7 @@ export default class Tweb extends React.Component {
 render() {
     return (
       <div id="siteContainer" className="thissite">
-      <Link to="/head"><div><img className="logo-img" src="./logo.png"/></div></Link>
+      <Link to="/head"><div><img className="logo-img" src="/logo.png"/></div></Link>
 
       <div className = "this-img">
         <div className="head"><p>Twebcast  moderator system</p></div>
@@ -52,12 +52,12 @@ class Slider extends React.Component {
   render() {
     return (
       <Carousel dragging={true}>
-        <img src="./work_images/twebb3.png"/>
-        <img src="./work_images/twebb4.png"/>
-        <img src="./work_images/twebb2.png"/>
-        <img src="./work_images/twebb1.png"/>
-        <img src="./work_images/twebb.png"/>
-        <img src="./work_images/twebb5.png"/>
+        <img src="/work_images/twebb3.png"/>
+        <img src="/work_images/twebb4.png"/>
+        <img src="/work_images/twebb2.png"/>
+        <img src="/work_images/twebb1.png"/>
+        <img src="/work_images/twebb.png"/>
+        <img src="/work_images/twebb5.png"/>
       </Carousel>
     )
   }

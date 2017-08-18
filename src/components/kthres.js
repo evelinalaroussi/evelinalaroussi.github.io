@@ -13,7 +13,7 @@ export default class Kthres extends React.Component {
 render() {
     return (
       <div id="siteContainer" className="thissite">
-      <Link to="/head"><div><img className="logo-img" src="./logo.png"/></div></Link>
+      <Link to="/head"><div><img className="logo-img" src="/logo.png"/></div></Link>
 
       <div className = "this-img">
         <div className="head"><p>KTH travel</p></div>
@@ -55,10 +55,10 @@ class Slider extends React.Component {
   render() {
     return (
       <Carousel dragging={true}>
-        <img src="./work_images/kthres.png"/>
-        <img src="./work_images/kthres1.png"/>
-        <img src="./work_images/kthres2.png"/>
-        <img src="./work_images/kthres3.png"/>
+        <img src="/work_images/kthres.png"/>
+        <img src="/work_images/kthres1.png"/>
+        <img src="/work_images/kthres2.png"/>
+        <img src="/work_images/kthres3.png"/>
       </Carousel>
     )
   }

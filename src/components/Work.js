@@ -93,7 +93,7 @@ export default class Work extends React.Component {
 
   handleClick(name){
 
-    window.location.href = "/"+name;
+    window.location.href = "/work/"+name;
     
   }
 

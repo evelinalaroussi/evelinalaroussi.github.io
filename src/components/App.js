@@ -26,17 +26,17 @@ export default function App() {
         <Route exact path="/head" component={Header} />
         <Route exact path="/about" component={About} />
         <Route exact path="/work" component={Work} />
-        <Route exact path="/thissite" component={Thissite} />
-        <Route exact path="/maps" component={Maps} />
-        <Route exact path="/glass" component={Glass} />
-        <Route exact path="/kthres" component={Kthres} />
-        <Route exact path="/haptik" component={Haptik} />
-        <Route exact path="/iris" component={Iris} />
-        <Route exact path="/unichat" component={Unichat} />
-		<Route exact path="/meetingplanner" component={Meetingplanner} />
-		<Route exact path="/rollerstroller" component={Roller} />
-	    <Route exact path="/recipe" component={Recipe} />
-	    <Route exact path="/twebcast" component={Tweb} />
+        <Route exact path="/work/thissite" component={Thissite} />
+        <Route exact path="/work/maps" component={Maps} />
+        <Route exact path="/work/glass" component={Glass} />
+        <Route exact path="/work/kthres" component={Kthres} />
+        <Route exact path="/work/haptik" component={Haptik} />
+        <Route exact path="/work/iris" component={Iris} />
+        <Route exact path="/work/unichat" component={Unichat} />
+		<Route exact path="/work/meetingplanner" component={Meetingplanner} />
+		<Route exact path="/work/rollerstroller" component={Roller} />
+	    <Route exact path="/work/recipe" component={Recipe} />
+	    <Route exact path="/work/twebcast" component={Tweb} />
 
       </Switch>
     </div>

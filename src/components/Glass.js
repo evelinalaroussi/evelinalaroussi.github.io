@@ -16,14 +16,14 @@ render() {
 
     return (
       <div id="siteContainer" className="thissite">
-      <Link to="/head"><div><img className="logo-img" src="./logo.png"/></div></Link>
+      <Link to="/head"><div><img className="logo-img" src="/logo.png"/></div></Link>
 
       <div className = "this-img">
         <div className="head"><p>The interactive drinking glass</p></div>
         <hr id="headLine"/>
         <Link to="/work"><div className="button-div"><button id="button">Back to listing</button></div></Link>
         <iframe width="560" height="315" src="https://www.youtube.com/embed/25ME518MO3I" frameborder="0" allowfullscreen></iframe>
-        <img id="misuse" src="./work_images/misuse.png"/>
+        <img id="misuse" src="/work_images/misuse.png"/>
       </div>
       <div className="this-text">
           <div className="tech">

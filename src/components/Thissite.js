@@ -22,7 +22,7 @@ render() {
         <div className="head"><p>THIS SITE</p></div>
         <hr id="headLine"/>
         <Link to="/work"><div className="button-div"><button id="button">Back to listing</button></div></Link>
-        <img id="mcbook" src="./work_images/mcbook2.png"/>
+        <img id="mcbook" src="/work_images/mcbook2.png"/>
       </div>
       <div className="this-text">
           <div className="tech">

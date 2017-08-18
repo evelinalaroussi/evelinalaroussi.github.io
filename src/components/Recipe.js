@@ -13,7 +13,7 @@ export default class Recipe extends React.Component {
 render() {
     return (
       <div id="siteContainer" className="thissite">
-      <Link to="/head"><div><img className="logo-img" src="./logo.png"/></div></Link>
+      <Link to="/head"><div><img className="logo-img" src="/logo.png"/></div></Link>
 
       <div className = "this-img">
         <div className="head"><p>Haptic and e-commerce</p></div>
@@ -52,9 +52,9 @@ class Slider extends React.Component {
   render() {
     return (
       <Carousel dragging={true}>
-        <img src="./work_images/recept.png"/>
-        <img src="./work_images/recept1.png"/>
-        <img src="./work_images/recept2.png"/>
+        <img src="/work_images/recept.png"/>
+        <img src="/work_images/recept1.png"/>
+        <img src="/work_images/recept2.png"/>
       </Carousel>
     )
   }
