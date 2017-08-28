@@ -28,7 +28,7 @@ render() {
             <div><p>-AngularJs for frontend</p>
             <p>-NodeJs + express for server side</p>
             <p>-HTML + CSS for layout</p>
-            <p>-Jquery for developing the map application </p>
+            <p>-Javascript for developing the map application </p>
             <p>-google maps API</p>
             <p>-Firebase as database</p>
             <p>-MVC as pattern</p></div>
