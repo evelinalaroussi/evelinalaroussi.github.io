@@ -37,6 +37,8 @@ function About () {
 
   <div className = "skillcontainer">
     <dl className="skills-diagram">
+          <dt className="skill-8"><img id="about-me" src="/evelina-bild.jpg"/></dt>
+      <dd>8</dd>
       <dt className="skill-5">ReactJS</dt>
       <dd>5</dd>
       <dt className="skill-10">HTML & CSS</dt>

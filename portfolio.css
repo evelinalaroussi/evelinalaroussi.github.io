@@ -354,7 +354,12 @@ html, body {
 	margin:0 auto;
 }
 
+#about-me {
+  width:100%;
+  height: 100%;
+  border-radius: 100%;
 
+}
 
 .skills-diagram {
   font-size: 16px;
