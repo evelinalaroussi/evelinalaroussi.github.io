@@ -4,6 +4,12 @@ import { Link } from 'react-router-dom';
 //import { Code } from '../styles/style';
 //import s from '../styles/home.style';
 
+import Icon from 'react-icons-kit';
+
+    //import icons
+
+import { arrowLeft } from 'react-icons-kit/icomoon';
+
 export default class Work extends React.Component {
   constructor(props) {
     super(props);
@@ -107,7 +113,7 @@ render() {
     return (
       <div id="container">
         <div id="work-container">
-          <Link to="/head"><div><img className="logo-img" src="./logo.png"/></div></Link>
+          <div className="icon-head"><Link to="/head"><img className="logo-img" src="./logo.png"/></Link><p id="back"><Icon icon={arrowLeft}/> BACK</p></div>
           <div className="head">MY WORK AND PROJECTS</div>
           <hr id="headLine"/>
           <div className="images">

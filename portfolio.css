@@ -549,11 +549,11 @@ html, body {
 	}
 
 	.start-logo img {
-		width:30%;
+		width:20%;
 	}
 
 	.logo-img {
-		width:30%;
+		width:20%;
 	}
 }
 
@@ -803,4 +803,101 @@ iframe {
 #twebbP {
   padding-bottom:20px;
   font-style: italic;
+}
+
+.contact-container {
+    background-image: url(background2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: auto;
+}
+
+@media(min-height: 500px ){
+  .contact-container {
+    background-image: url(background2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+}
+.contact-container > .head {
+  font-size: 34px;
+}
+
+@media(max-width: 600px) {
+  .contact-container > .head {
+  font-size: 24px;
+}
+
+}
+
+
+#email {
+  width:100px;
+  height: 100px;
+}
+
+#logo-images {
+  width:300px;
+  margin: 0 auto;
+  padding-top:65px;
+
+}
+
+#back {
+    display: none;
+}
+ @media(min-width: 1093px){
+.icon-head:hover  #back{
+    width: 30px;
+    display: inline;
+    margin-top: 38px;
+    position: absolute;
+}
+}
+
+ @media(max-width: 1093px) and (min-width: 975px){
+.icon-head:hover  #back{
+    width: 30px;
+    display: inline;
+    margin-top: 108px;
+    position: absolute;
+}
+}
+
+ @media(max-width: 975px) and (min-width: 700px){
+.icon-head:hover  #back{
+    width: 30px;
+    display: inline;
+    margin-top: 68px;
+    position: absolute;
+}
+}
+
+ @media(max-width: 700px) and (min-width: 500px){
+.icon-head:hover  #back{
+    width: 30px;
+    display: inline;
+    margin-top: 45px;
+    position: absolute;
+}
+}
+
+ @media(max-width: 500px){
+.icon-head:hover  #back{
+    width: 30px;
+    display: inline;
+    margin-top: 28px;
+    position: absolute;
+}
+}
+
+#evelinaAnim {
+  width:400px;
+  height: 350px;
+  float: right;
+}
+
+#evelinaAnim > img {
+  width: 100%
 }

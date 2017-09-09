@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 function Header() {
 
 
-// different hights for different screen sizes
+// different hights for different screen sizes fixes problem with background sometimes covers all content or sometimes goes after the screensize
     if (window.innerWidth>1093 && window.innerHeight<590){
           var oh = "auto";
           var h = "auto";
@@ -57,7 +57,7 @@ function Header() {
 	    	
 	        </div>
 	    
-	        <div className="circles" style={{height: h}}><Link to={`/About`}><div id="c1" >About</div></Link><Link to={`/work`}><div id="c2" >Work</div></Link><Link to={`/example`}><div id="c3">Contact</div></Link></div>
+	        <div className="circles" style={{height: h}}><Link to={`/About`}><div id="c1" >About</div></Link><Link to={`/work`}><div id="c2" >Work</div></Link><Link to={`/contact`}><div id="c3">Contact</div></Link></div>
 
     	</div>
     </div>

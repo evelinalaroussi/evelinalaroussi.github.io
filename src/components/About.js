@@ -3,9 +3,13 @@ import Interactive from 'react-interactive';
 import { Link } from 'react-router-dom';
 //import { Code } from '../styles/style';
 //import s from '../styles/home.style';
+  import Icon from 'react-icons-kit';
+
+    //import icons
+
+ import { arrowLeft } from 'react-icons-kit/icomoon';
 
 function About () {
-
 
   window.scrollTo(0, 0);
 
@@ -21,7 +25,7 @@ function About () {
 
     return (
     <div id="c" className="about-cont" style={{height:oh}}>
-    <div><Link to="/head"><img className="logo-img" src="./logo.png"/></Link></div>
+    <div className="icon-head"><Link to="/head"><img className="logo-img" src="./logo.png"/></Link><p id="back"> <Icon icon={arrowLeft}/> BACK</p></div>
     <div className="head">ABOUT ME</div>
     <hr id="headLine"/>
 
@@ -37,7 +41,7 @@ function About () {
 
   <div className = "skillcontainer">
     <dl className="skills-diagram">
-          <dt className="skill-8"><img id="about-me" src="/evelina-bild.jpg"/></dt>
+      <dt className="skill-8"><img id="about-me" src="/evelina-bild.jpg"/></dt>
       <dd>8</dd>
       <dt className="skill-5">ReactJS</dt>
       <dd>5</dd>

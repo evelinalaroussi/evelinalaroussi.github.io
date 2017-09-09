@@ -4,6 +4,7 @@ import { Switch, Route } from 'react-router-dom';
 import Home from './Home';
 import Header from './Header';
 import About from './About';
+import Contact from './Contact';
 import Work from './Work';
 import Thissite from './Thissite';
 import Maps from './Maps';
@@ -24,6 +25,7 @@ export default function App() {
       <Switch>
         <Route exact path="/" component={Home} />
         <Route exact path="/head" component={Header} />
+        <Route exact path="/contact" component={Contact} />
         <Route exact path="/about" component={About} />
         <Route exact path="/work" component={Work} />
         <Route exact path="/work/thissite" component={Thissite} />
