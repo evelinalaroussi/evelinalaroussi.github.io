@@ -14,8 +14,7 @@ function Contact () {
 
 
     return (
-      <div className="contact-container">
-
+    <div className="contact-container">
     <div className="icon-head"><Link to="/head"><img className="logo-img" src="./logo.png"/></Link><p id="back"> <Icon icon={arrowLeft}/> BACK</p></div>
     <div className="head">I WOULD LOVE TO HEAR FROM YOU</div>
     <hr id="headLine"/>
@@ -26,7 +25,6 @@ function Contact () {
     <a href="https://www.linkedin.com/in/evelina-laroussi-1b98b5bb/"><img id="email" src="./icons/linkedin.png"/></a>
     <a href="https://www.facebook.com/evelina.laroussi"><img id="email" src="./icons/facebook.png"/></a>
     </div>
-    <br className="clear" />
     </div>
 
     </div>

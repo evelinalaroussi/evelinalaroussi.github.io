@@ -24,7 +24,7 @@ render() {
       </div>
       <div className="this-text">
           <div className="tech">
-            <h3>WHAT I USED</h3>
+            <h3>FRAMEWORKS</h3>
             <hr id="miniheadLine"/>
             <div><p>-HTML and CSS for layout</p>
             <p>-Jquery for developing new features</p>
@@ -52,12 +52,12 @@ class Slider extends React.Component {
   render() {
     return (
       <Carousel dragging={true}>
-        <img src="/work_images/twebb3.png"/>
-        <img src="/work_images/twebb4.png"/>
-        <img src="/work_images/twebb2.png"/>
-        <img src="/work_images/twebb1.png"/>
-        <img src="/work_images/twebb.png"/>
-        <img src="/work_images/twebb5.png"/>
+        <img className="twebimg" src="/work_images/twebb3.png"/>
+        <img className="twebimg" src="/work_images/twebb4.png"/>
+        <img className="twebimg" src="/work_images/twebb2.png"/>
+        <img className="twebimg" src="/work_images/twebb1.png"/>
+        <img className="twebimg" src="/work_images/twebb.png"/>
+        <img className="twebimg" src="/work_images/twebb5.png"/>
       </Carousel>
     )
   }
