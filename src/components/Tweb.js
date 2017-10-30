@@ -26,8 +26,8 @@ render() {
           <div className="tech">
             <h3>FRAMEWORKS</h3>
             <hr id="miniheadLine"/>
-            <div><p>-HTML and CSS for layout</p>
-            <p>-Jquery for developing new features</p>
+            <div><p>- HTML and CSS for layout</p>
+            <p>- Jquery for developing new features</p>
           </div>
           </div>
           <div className="desc"><h3>DESCRIPTION</h3>

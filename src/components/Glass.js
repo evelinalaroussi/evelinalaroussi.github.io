@@ -27,11 +27,13 @@ render() {
       </div>
       <div className="this-text">
           <div className="tech">
-            <h3>WHAT I USED</h3>
+            <h3>METHODS & TOOLS</h3>
             <hr id="miniheadLine"/>
-            <div><p>- Photoshop</p>
-            <p>- iMovie</p>
+            <div>
+            <p>- Reflective interaction design process</p>
             <p>- Physical prototyping</p>
+            <p>- Photoshop</p>
+            <p>- iMovie</p>
           </div>
 
       </div>
