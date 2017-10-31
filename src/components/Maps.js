@@ -23,7 +23,7 @@ render() {
       </div>
       <div className="this-text">
           <div className="tech">
-            <h3>WHAT I USED</h3>
+            <h3>FRAMEWORKS</h3>
             <hr id="miniheadLine"/>
             <div><p>-AngularJs for frontend</p>
             <p>-NodeJs + express for server side</p>

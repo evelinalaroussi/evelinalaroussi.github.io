@@ -23,20 +23,20 @@ render() {
       </div>
       <div className="this-text">
           <div className="tech">
-            <h3>Methods</h3>
+            <h3>METHODS</h3>
             <hr id="miniheadLine"/>
-            <div><p>-litterature reserch</p>
+            <div><p>- litterature reserch</p>
             <p>- interviewing</p>
             <p>- Walktrhoughs</p>
             <p>- Sketching</p>
             <p>- Prototyping</p>
-            <p>- Working iterative with all these methods</p>
+            <p>- Working iterative</p>
             </div>
           </div>
           <div className="desc"><h3>DESCRIPTION</h3>
           <hr id="miniheadLine"/>
 
-          <div><p>This project is made in a course called Methods for Interaction design. Our assignment was to redesign an existing system at KTH. We got the system KTH-RES, which is a system for booking travels and filling out travel expenses for staff. The reason for making this projects was because the current system has gotten many complains and is not very user friendly according to most users. Before staring to develop a prototype we conducted interviews and made walk-troughs on the current system to recognize both problems and user goals. After working with our prototype we did usability testing and further interviews to get feedback before finishing it. Pictures of bot the current system and our prototype are displayed below. <a href="https://www.weld.io/kth-res">Prototype</a></p></div>
+          <div><p>This project is made in a course called Methods for Interaction design. Our assignment was to redesign an existing system at KTH. We got the system KTH-RES, which is a system for booking travels and filling out travel expenses for staff. The reason for making this projects was because the current system has gotten many complains and is not very user friendly according to most users. Before staring to develop a prototype we conducted interviews and made walk-troughs on the current system to recognize both problems and user goals. After working with our prototype we did usability testing and further interviews to get feedback before finishing it. Pictures of bot the current system and our prototype are displayed in the image carousel. <a href="https://www.weld.io/kth-res">Prototype</a></p></div>
 
           </div>
       </div>
@@ -57,7 +57,6 @@ class Slider extends React.Component {
       <Carousel dragging={true}>
         <img src="/work_images/kthres.png"/>
         <img src="/work_images/kthres1.png"/>
-        <img src="/work_images/kthres2.png"/>
         <img src="/work_images/kthres3.png"/>
       </Carousel>
     )

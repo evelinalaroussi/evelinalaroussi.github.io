@@ -23,7 +23,7 @@ render() {
       </div>
       <div className="this-text">
           <div className="tech">
-            <h3>WHAT I USED</h3>
+            <h3>FRAMEWORKS</h3>
             <hr id="miniheadLine"/>
             <div><p>-Rss feed, makes it possible to subscribe for the website and get latest recipes</p>
             <p>-MySQL database, to save all recipes that users create</p>

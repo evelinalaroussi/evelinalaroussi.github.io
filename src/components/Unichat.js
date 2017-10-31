@@ -23,7 +23,7 @@ render() {
       </div>
       <div className="this-text">
           <div className="tech">
-            <h3>Methods</h3>
+            <h3>FRAMEWORKS AND TOOLS</h3>
             <hr id="miniheadLine"/>
             <div>
             <p>- Geolocation, to make the app based on location</p>

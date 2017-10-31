@@ -664,6 +664,11 @@ color: white;
   height: 200px;
 }
 
+#igor {
+  width:400px;
+  height: 300px;
+}
+
 
 @media (max-width: 1093px) {
 
@@ -774,6 +779,7 @@ position: relative; left: -10px;
   width:70% !important;
   margin: 0 auto !important;
 }
+
 
 li button {
   font-size: 12px !important;

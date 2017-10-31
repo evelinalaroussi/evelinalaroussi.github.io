@@ -26,7 +26,7 @@ render() {
       </div>
       <div className="this-text">
           <div className="tech">
-            <h3>WHAT I USED</h3>
+            <h3>FRAMEWORKS AND TOOLS</h3>
             <hr id="miniheadLine"/>
             <div><p>- IrisTK, a XML and Java based speech recognition program</p>
             <p>- API called recipe puppy </p>

@@ -17,6 +17,7 @@ import Meetingplanner from './Meetingplanner';
 import Roller from './Roller';
 import Recipe from './Recipe';
 import Tweb from './Tweb';
+import Igor from './Igor';
 //import s from '../styles/app.style';
 
 export default function App() {
@@ -39,6 +40,8 @@ export default function App() {
 		<Route exact path="/work/rollerstroller" component={Roller} />
 	    <Route exact path="/work/recipe" component={Recipe} />
 	    <Route exact path="/work/twebcast" component={Tweb} />
+      <Route exact path="/work/igor" component={Igor} />
+
 
       </Switch>
     </div>

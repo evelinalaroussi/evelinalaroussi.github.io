@@ -23,7 +23,7 @@ render() {
       </div>
       <div className="this-text">
           <div className="tech">
-            <h3>WHAT I USED</h3>
+            <h3>METHODS AND FRAMEWORKS</h3>
             <hr id="miniheadLine"/>
             <div><p>-Litterature research</p>
             <p>-Development of haptic environment, using Blender for 3D moddeling and chai3D (c++ library) as developing language</p>
@@ -53,7 +53,6 @@ class Slider extends React.Component {
   render() {
     return (
       <Carousel dragging={true}>
-        <img src="/work_images/haptik.png"/>
         <img src="/work_images/haptik2.png"/>
       </Carousel>
     )

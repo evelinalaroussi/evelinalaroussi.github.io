@@ -14,7 +14,7 @@ export default class Work extends React.Component {
   constructor(props) {
     super(props);
 
-    this.state = {twebb: " ",port:" ", beer: " ", maps: " ", kthres: " ", haptik: " ", iris: " ", unichat: " ", meetingplanner: " ", stroller: " ", recept: " "};
+    this.state = {twebb: " ",port:" ", beer: " ", maps: " ", kthres: " ", haptik: " ", iris: " ", unichat: " ", meetingplanner: " ", stroller: " ", recept: " ", igor: " "};
   } 
 
 
@@ -53,6 +53,10 @@ export default class Work extends React.Component {
 
     if (name == "twebb"){
       this.setState({twebb:"Twebcast"})
+    }
+
+    if (name== "igor"){
+      this.setState({igge:"Igor"})
     }
 
   }
@@ -94,6 +98,10 @@ export default class Work extends React.Component {
       this.setState({twebb:""})
     }
 
+    if(name="igor"){
+      this.setState({igge:""})
+    }
+
     
   }
 
@@ -117,6 +125,7 @@ render() {
           <div className="head">MY WORK AND PROJECTS</div>
           <hr id="headLine"/>
           <div className="images">
+            <div className="workImg" id="igor" onClick={this.handleClick.bind(this, 'igor')}><p> {this.state.igge} </p><img src="./work_images/igor.JPG" onMouseEnter={this.hover.bind(this, 'igor')} onMouseLeave={this.nohover.bind(this, 'igor')}/></div>
             <div className="workImg" id="portfolio" ref = "thissite" onClick={this.handleClick.bind(this, 'thissite')}><p> {this.state.port} </p><img src="./logo_white.png" onMouseEnter={this.hover.bind(this, 'portfolio')} onMouseLeave={this.nohover.bind(this, 'portfolio')}/></div>
             <div className="workImg" id="tweb"  ref="twebcast" onClick={this.handleClick.bind(this, 'twebcast')}><p>{this.state.twebb}</p><img src="./work_images/twebb4.png" onMouseEnter={this.hover.bind(this, 'twebb')} onMouseLeave={this.nohover.bind(this, 'twebb')}/></div>
             <div className="workImg" id="beer" onClick={this.handleClick.bind(this, 'glass')}><p>{this.state.beer}</p><img src="./work_images/imgglass1.jpg" onMouseEnter={this.hover.bind(this, 'beer')} onMouseLeave={this.nohover.bind(this, 'beer')}/></div>
