@@ -665,8 +665,8 @@ color: white;
 }
 
 #igor {
-  width:400px;
-  height: 300px;
+  width: 300px;
+  height: 250px;
 }
 
 
@@ -699,6 +699,16 @@ color: white;
 #haptik {
   width:250px;
   height: 150px;
+}
+
+#igor {
+  width: 275px;
+  height: 230px;
+}
+
+#tweb {
+  width: 275px;
+  height: 180px;
 }
  
 }
@@ -800,6 +810,12 @@ li button {
 iframe {
   width:50%;
   margin-top: 50px;
+}
+
+@media(min-height: 500px ){
+  iframe {
+    width:300px;
+}
 }
 
 #strollerimg {
