@@ -53,7 +53,7 @@ class Slider extends React.Component {
   render() {
     return (
       <Carousel dragging={true}>
-        <img src="/work_images/haptik2.png"/>
+        <img src="/work_images/haptik2.png" width="100%"/>
       </Carousel>
     )
   }
