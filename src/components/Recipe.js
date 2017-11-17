@@ -53,7 +53,6 @@ class Slider extends React.Component {
     return (
       <Carousel dragging={true}>
         <img src="/work_images/recept.png"/>
-        <img src="/work_images/recept1.png"/>
         <img src="/work_images/recept2.png"/>
       </Carousel>
     )

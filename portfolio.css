@@ -537,9 +537,9 @@ html, body {
 	#c1, #c2, #c3 {
 		display: block;
 		margin:0 auto;
-		width:200px;
-		height: 200px;
-		line-height: 190px;
+		width:100px;
+		height: 100px;
+		line-height: 100px;
 		margin-bottom: 40px;
     color:black;
 	}
@@ -768,6 +768,13 @@ color: white;
   float: left;
 }
 
+@media (max-width: 607px){
+  .tech, .desc {
+    width:100%;
+}
+}
+
+
 .tech p, .desc p {
   width:70%;
   margin:0 auto;
@@ -812,7 +819,7 @@ iframe {
   margin-top: 50px;
 }
 
-@media(min-height: 500px ){
+@media(min-height: 500px ) and (max-width: 607px){
   iframe {
     width:300px;
 }

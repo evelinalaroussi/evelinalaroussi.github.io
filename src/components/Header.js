@@ -25,7 +25,7 @@ function Header() {
 
     else if(window.innerWidth<window.innerHeight && window.innerWidth<1093) {
           var oh = "100%";
-          var h = 750+"px";
+          var h = 500+"px";
           var o = "100%";
           var k = "auto";
           console.log("3");
@@ -33,7 +33,7 @@ function Header() {
 
     else {
       var oh = "auto";
-      var h = 750+"px";
+      var h = 500+"px";
       var o = "100%"
       console.log("4");
     }
