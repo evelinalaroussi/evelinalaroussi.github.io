@@ -52,12 +52,12 @@ function Header() {
 	      	      <div className="header-hr"><hr id="ett"/><hr id="tva"/></div>
 	      	
 	      	      <div className="desc-text">
-	      		  	<p>Hi, I am a student at KTH in Stockholm Sweden, doing my best to become a great engineer with a master in interactive mediatechnology. I am currently at the last (5th) year and will soon be looking for the next chapter in my career. I like <strong>front-end developing</strong>, but i also have a thing for <strong>interaction design</strong>. Some say you can't do both... <span id="bigger">I say of course you can!</span></p>
+	      		  	<p>Hi, I am a student at KTH in Stockholm Sweden, doing my best to become a great engineer with a master in interactive mediatechnology. I am currently at the last (5th) year and will soon be looking for the next chapter in my career. I like <strong>front-end developing</strong>, but i also have a thing for <strong>interaction design</strong>. Some say you can not do both... <span id="bigger">I say of course you can!</span></p>
 	  			  </div>
 	    	
 	        </div>
 	    
-	        <div className="circles" style={{height: h}}><Link to={`/About`}><div id="c1" >About</div></Link><Link to={`/work`}><div id="c2" >Work</div></Link><Link to={`/contact`}><div id="c3">Contact</div></Link></div>
+	        <div className="circles" style={{height: h}}><Link to={`/About`}><div id="c1">About</div></Link><Link to={`/work`}><div id="c2" >Work</div></Link><Link to={`/contact`}><div id="c3">Contact</div></Link></div>
 
     	</div>
     </div>
