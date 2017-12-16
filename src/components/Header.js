@@ -45,7 +45,7 @@ function Header() {
 	      	<div className="innerH-container">
 	      		  <div className="header-text">
 			      	<h2>Evelina Laroussi</h2>
-			      	<p>Who am i? </p>
+			      	<p>Who am i?</p>
 	      		  </div>
 	      	      <div className="header-img"></div>
 	      	
