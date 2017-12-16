@@ -57,7 +57,7 @@ function Header() {
 	    	
 	        </div>
 	    
-	        <div className="circles" style={{height: h}}><Link to={`/About`}><div id="c1" >About</div></Link><Link to={`/work`}><div id="c2" >Work</div></Link><Link to={`/contact`}><div id="c3">Contact</div></Link></div>
+	        <div className="circles" style={{height: h}}><Link to={`/About`}><div id="c1">About</div></Link><Link to={`/work`}><div id="c2" >Work</div></Link><Link to={`/contact`}><div id="c3">Contact</div></Link></div>
 
     	</div>
     </div>
