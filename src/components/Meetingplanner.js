@@ -28,7 +28,7 @@ render() {
             <div><p>-HTML + bootstrap and CSS for layout and design</p>
             <p>-AngularJs for development of application</p>
             <p>-Firebase as databse and google accounts</p>
-            <p>-Open weatcher map API</p>
+            <p>-Open weather map API</p>
             <p>-MVC pattern</p>
           </div>
           </div>

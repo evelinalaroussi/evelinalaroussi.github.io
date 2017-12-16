@@ -47,7 +47,7 @@ function Header() {
 			      	<h2>Evelina Laroussi</h2>
 			      	<p>Who am i? </p>
 	      		  </div>
-	      	      <img className="header-img" src="./cv.jpg"/>
+	      	      <div className="header-img"></div>
 	      	
 	      	      <div className="header-hr"><hr id="ett"/><hr id="tva"/></div>
 	      	

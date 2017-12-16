@@ -25,8 +25,8 @@ render() {
           <div className="tech">
             <h3>METHODS</h3>
             <hr id="miniheadLine"/>
-            <div><p>- litterature reserch</p>
-            <p>- interviewing</p>
+            <div><p>- Litterature reserch</p>
+            <p>- Interviewing</p>
             <p>- Walktrhoughs</p>
             <p>- Sketching</p>
             <p>- Prototyping</p>
