@@ -14,100 +14,23 @@ export default class Work extends React.Component {
   constructor(props) {
     super(props);
 
-    this.state = {twebb: " ",port:" ", beer: " ", maps: " ", kthres: " ", haptik: " ", iris: " ", unichat: " ", meetingplanner: " ", stroller: " ", recept: " ", igor: " "};
+    this.state = {name: " "};
   } 
 
 
-  hover(name) {
-
-    if (name == "portfolio"){
-      this.setState({port:"This site"})
-    }
-    if (name == "maps"){
-      this.setState({maps:"My maps"})
-    }
-    if (name == "kthres"){
-      this.setState({kthres:"KTH travel"})
-    }
-    if (name == "haptik"){
-      this.setState({haptik:"Haptic e-commerce"})
-    }
-    if (name == "iris"){
-      this.setState({iris:"Cooking with iris"})
-    }
-    if (name == "unichat"){
-      this.setState({unichat:"UniChat"})
-    }
-        if (name == "beer"){
-      this.setState({beer:"The interactive glass"})
-    }
-        if (name == "meetingplanner"){
-      this.setState({meetingplanner:"Meetingplanner"})
-    }
-        if (name == "stroller"){
-      this.setState({stroller:"RollerStroller"})
-    }
-        if (name == "recept"){
-      this.setState({recept:"Recipe website"})
-    }
-
-    if (name == "twebb"){
-      this.setState({twebb:"Twebcast"})
-    }
-
-    if (name== "igor"){
-      this.setState({igge:"Igor"})
-    }
-
+  hover(event) {
+  
+    this.setState({ name: event.currentTarget.dataset.tag });
   }
 
-  nohover(name){
-
-    if (name == "portfolio"){
-      this.setState({port:""})
-    }
-    if (name == "maps"){
-      this.setState({maps:""})
-    }
-    if (name == "kthres"){
-      this.setState({kthres:""})
-    }
-    if (name == "haptik"){
-      this.setState({haptik:""})
-    }
-    if (name == "iris"){
-      this.setState({iris:""})
-    }
-    if (name == "unichat"){
-      this.setState({unichat:""})
-    }
-        if (name == "beer"){
-      this.setState({beer:""})
-    }
-        if (name == "meetingplanner"){
-      this.setState({meetingplanner:""})
-    }
-        if (name == "stroller"){
-      this.setState({stroller:""})
-    }
-        if (name == "recept"){
-      this.setState({recept:""})
-    }
-
-    if (name == "twebb"){
-      this.setState({twebb:""})
-    }
-
-    if(name="igor"){
-      this.setState({igge:""})
-    }
-
-    
+  nohover(){
+        this.setState({ name: " "});
   }
 
   handleClick(name){
     window.location.href = "/work/"+name; 
   }
+
 
 render() {
 
@@ -123,18 +46,18 @@ render() {
           <div className="head">MY WORK AND PROJECTS</div>
           <hr id="headLine"/>
           <div className="images">
-            <div className="workImg" id="igor" onClick={this.handleClick.bind(this, 'igor')}><p> {this.state.igge} </p><img src="./work_images/igor.JPG" onMouseEnter={this.hover.bind(this, 'igor')} onMouseLeave={this.nohover.bind(this, 'igor')}/></div>
-            <div className="workImg" id="portfolio" ref = "thissite" onClick={this.handleClick.bind(this, 'thissite')}><p> {this.state.port} </p><img src="./logo_white.png" onMouseEnter={this.hover.bind(this, 'portfolio')} onMouseLeave={this.nohover.bind(this, 'portfolio')}/></div>
-            <div className="workImg" id="tweb"  ref="twebcast" onClick={this.handleClick.bind(this, 'twebcast')}><p>{this.state.twebb}</p><img src="./work_images/twebb4.png" onMouseEnter={this.hover.bind(this, 'twebb')} onMouseLeave={this.nohover.bind(this, 'twebb')}/></div>
-            <div className="workImg" id="beer" onClick={this.handleClick.bind(this, 'glass')}><p>{this.state.beer}</p><img src="./work_images/imgglass1.jpg" onMouseEnter={this.hover.bind(this, 'beer')} onMouseLeave={this.nohover.bind(this, 'beer')}/></div>
-            <div className="workImg" id="maps" onClick={this.handleClick.bind(this, 'maps')}><p>{this.state.maps}</p><img src="./work_images/maps.png" onMouseEnter={this.hover.bind(this, 'maps')} onMouseLeave={this.nohover.bind(this, 'maps')}/></div>
-            <div className="workImg" id="kthres" onClick={this.handleClick.bind(this, 'kthres')}><p>{this.state.kthres}</p><img src="./work_images/kthres.png" onMouseEnter={this.hover.bind(this, 'kthres')} onMouseLeave={this.nohover.bind(this, 'kthres')}/></div>
-            <div className="workImg" id="haptik" onClick={this.handleClick.bind(this, 'haptik')}><p>{this.state.haptik}</p><img src="./work_images/haptik.png" onMouseEnter={this.hover.bind(this, 'haptik')} onMouseLeave={this.nohover.bind(this, 'haptik')}/></div>
-            <div className="workImg" id="iris" onClick={this.handleClick.bind(this, 'iris')}><p>{this.state.iris}</p><img src="./work_images/iris.png" onMouseEnter={this.hover.bind(this, 'iris')} onMouseLeave={this.nohover.bind(this, 'iris')}/></div>
-            <div className="workImg" id="unichat" onClick={this.handleClick.bind(this, 'unichat')}><p>{this.state.unichat}</p><img src="./work_images/unichat.png" onMouseEnter={this.hover.bind(this, 'unichat')} onMouseLeave={this.nohover.bind(this, 'unichat')}/></div>
-            <div className="workImg" id="meetingplanner" onClick={this.handleClick.bind(this, 'meetingplanner')}><p>{this.state.meetingplanner}</p><img src="./work_images/meetingplanner.png" onMouseEnter={this.hover.bind(this, 'meetingplanner')}onMouseLeave={this.nohover.bind(this, 'meetingplanner')}/></div>
-            <div className="workImg" id="stroller" onClick={this.handleClick.bind(this, 'rollerstroller')}><p>{this.state.stroller}</p><img src="./work_images/stroller.png" onMouseEnter={this.hover.bind(this, 'stroller')} onMouseLeave={this.nohover.bind(this, 'stroller')}/></div>
-            <div className="workImg" id="recept" onClick={this.handleClick.bind(this, 'recipe')}><p>{this.state.recept}</p><img src="./work_images/recept.png" onMouseEnter={this.hover.bind(this, 'recept')} onMouseLeave={this.nohover.bind(this, 'recept')}/></div>
+            <div className="workImg" id="igor" onClick={this.handleClick.bind(this, 'igor')}><p> {this.state.name=="Igor" ? "Igor": " "} </p><img src="./work_images/igor.JPG"  data-tag="Igor" onMouseEnter={this.hover.bind(this)} onMouseLeave={this.nohover.bind(this)}/></div>
+            <div className="workImg" id="portfolio" onClick={this.handleClick.bind(this, 'thissite')}><p> {this.state.name =="Portfolio" ? "This site": " "} </p><img src="./logo_white.png"  data-tag="Portfolio" onMouseEnter={this.hover.bind(this)} onMouseLeave={this.nohover.bind(this)}/></div>
+            <div className="workImg" id="tweb"  onClick={this.handleClick.bind(this, 'twebcast')}><p>{this.state.name == "Twebb" ? "Twebcast" : " "}</p><img src="./work_images/twebb4.png" data-tag="Twebb" onMouseEnter={this.hover.bind(this)} onMouseLeave={this.nohover.bind(this)}/></div>
+            <div className="workImg" id="beer" onClick={this.handleClick.bind(this, 'glass')}><p>{this.state.name == "Beer" ? "Interactive glass" : " "}</p><img src="./work_images/imgglass1.jpg" data-tag="Beer" onMouseEnter={this.hover.bind(this)} onMouseLeave={this.nohover.bind(this)}/></div>
+            <div className="workImg" id="maps" onClick={this.handleClick.bind(this, 'maps')}><p>{this.state.name == "Maps" ? "My maps" : " "}</p><img src="./work_images/maps.png" data-tag="Maps" onMouseEnter={this.hover.bind(this)} onMouseLeave={this.nohover.bind(this, 'maps')}/></div>
+            <div className="workImg" id="kthres" onClick={this.handleClick.bind(this, 'kthres')}><p>{this.state.name == "Res" ? "KTH-travel" : " "}</p><img src="./work_images/kthres.png" data-tag="Res" onMouseEnter={this.hover.bind(this)} onMouseLeave={this.nohover.bind(this)}/></div>
+            <div className="workImg" id="haptik" onClick={this.handleClick.bind(this, 'haptik')}><p>{this.state.name == "Haptik" ? "Haptic e-commerce" : " "}</p><img src="./work_images/haptik.png" data-tag="Haptik" onMouseEnter={this.hover.bind(this)} onMouseLeave={this.nohover.bind(this)}/></div>
+            <div className="workImg" id="iris" onClick={this.handleClick.bind(this, 'iris')}><p>{this.state.name == "Iris" ? "Cooking with Iris" : " "}</p><img src="./work_images/iris.png" data-tag="Iris" onMouseEnter={this.hover.bind(this)} onMouseLeave={this.nohover.bind(this)}/></div>
+            <div className="workImg" id="unichat" onClick={this.handleClick.bind(this, 'unichat')}><p>{this.state.name == "Uni" ? "UniChat" : " "}</p><img src="./work_images/unichat.png" data-tag="Uni" onMouseEnter={this.hover.bind(this)} onMouseLeave={this.nohover.bind(this)}/></div>
+            <div className="workImg" id="meetingplanner" onClick={this.handleClick.bind(this, 'meetingplanner')}><p>{this.state.name == "Meetingplanner" ? "Meetingplanner" : " "}</p><img src="./work_images/meetingplanner.png" data-tag="Meetingplanner" onMouseEnter={this.hover.bind(this)} onMouseLeave={this.nohover.bind(this)}/></div>
+            <div className="workImg" id="stroller" onClick={this.handleClick.bind(this, 'rollerstroller')}><p>{this.state.name == "Roller" ? "RollerStroller" : " "}</p><img src="./work_images/stroller.png" data-tag="Roller" onMouseEnter={this.hover.bind(this)} onMouseLeave={this.nohover.bind(this)}/></div>
+            <div className="workImg" id="recept" onClick={this.handleClick.bind(this, 'recipe')}><p>{this.state.name == "Recept" ? "Recipe website" : " "}</p><img src="./work_images/recept.png" data-tag="Recept" onMouseEnter={this.hover.bind(this)} onMouseLeave={this.nohover.bind(this)}/></div>
           </div>
         </div>
     </div>
