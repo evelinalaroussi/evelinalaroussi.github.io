@@ -287,6 +287,7 @@ html, body {
    background-size:cover;
 }
 
+
 #c1, #c2, #c3 {
 	width: 100px;
   border:1px solid black;
@@ -946,4 +947,11 @@ iframe {
 
 #evelinaAnim > img {
   width: 100%
+}
+
+#about-image {
+  background: url(evelina-bild2.jpg);
+      background-repeat: no-repeat;
+    background-size: cover;
+
 }

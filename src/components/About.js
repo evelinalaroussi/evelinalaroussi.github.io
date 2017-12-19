@@ -13,8 +13,8 @@ function About () {
 
   window.scrollTo(0, 0);
 
-  if (window.innerWidth>1020 && window.innerHeight>1300){
-    var oh = "100%"
+    if (window.innerWidth>1020 && window.innerHeight>1300){
+      var oh = "100%"
     }
 
     else {
@@ -39,7 +39,7 @@ function About () {
 
   <div className = "skillcontainer">
     <dl className="skills-diagram">
-      <dt className="skill-8"><img id="about-me" src="/evelina-bild.jpg"/></dt>
+      <dt className="skill-8" id="about-image"></dt>
       <dd>8</dd>
       <dt className="skill-5">ReactJS</dt>
       <dd>5</dd>
