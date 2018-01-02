@@ -686,6 +686,17 @@ color: white;
 }
 
 
+#sleepover {
+  width:300px;
+  height: 180px;
+}
+
+#womens {
+  width:300px;
+  height: 200px;
+}
+
+
 @media (max-width: 1093px) {
 
   #meetingplanner {
@@ -744,6 +755,11 @@ color: white;
 
 #mcbook {
   width:70%;
+}
+
+#sleepover_screens {
+  width:70%;
+  margin-top: 20px;
 }
 
 .this-img p {
@@ -831,14 +847,15 @@ li button {
 }
 
 iframe {
-  width:50%;
   margin-top: 50px;
+  width: 50%;
 }
 
 @media(min-height: 500px ) and (max-width: 607px){
-  iframe {
+  iframe, #sleepover_screens {
     width:300px;
 }
+
 }
 
 #strollerimg {

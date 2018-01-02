@@ -33,7 +33,7 @@ render() {
           <div className="desc"><h3>DESCRIPTION</h3>
           <hr id="miniheadLine"/>
 
-          <div><p>This is a project that i have worked with during three months as a front-end developer and UX designer at Twebcast. I have redesigned the system and added features, susch as the list view and timeline view. The system is for moderating events for clients.</p></div>
+          <div><p>This is a project that i have worked with during three months as a front-end developer and UX designer at Twebcast. I have redesigned the system and added features, such as the list view and timeline view. The system is for moderating events for clients.</p></div>
 
           </div>
       </div>
